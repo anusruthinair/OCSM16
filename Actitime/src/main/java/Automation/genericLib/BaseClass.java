@@ -42,7 +42,7 @@ public class BaseClass {
 	@AfterMethod(alwaysRun=true)
 	public void logoutApp()
 	{
-		driver.findElement(By.id("logoutLink")).click();
+		
 	}
 	@AfterClass(alwaysRun=true)
 	public void close()
